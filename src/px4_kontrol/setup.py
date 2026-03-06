@@ -24,11 +24,10 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'kalkis = px4_kontrol.kalkis:main',
-            'devriye = px4_kontrol.devriye:main',
-            'renk_avcisi = px4_kontrol.renk_avcisi:main',
-            'konum_kontrol = px4_kontrol.konum_kontrol:main',
-           'tam_otonom_inis = px4_kontrol.tam_otonom_inis:main',
+            
+           'qr_kamera_beyni = px4_kontrol.qr_kamera_beyni:main',
+           'tam_suru_ajani = px4_kontrol.tam_suru_ajani:main',
+           
         ],
     },
 )
